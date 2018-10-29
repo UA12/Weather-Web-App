@@ -1,0 +1,83 @@
+body {
+  position: relative;
+  margin: 0;
+  min-height: 100%;
+  font-family: Poppins;
+  color: #424B54;
+  background: #474747;
+  padding-bottom: 11rem;
+  background: #474747 url(https://wallpapersite.com/images/pages/pic_w/5165.jpg);
+}
+h1, h2, h3, span{
+  margin:0;
+} 
+
+h1{
+  font-size:16rem;
+}
+h2{
+  font-size:3rem;
+}
+h3{
+  font-size:1.4rem;
+}
+span{
+  font-size: 6rem;
+}
+.container {
+  padding: 25px 5px;
+  background-color: #F2F3F4;
+  width: 90%;
+  max-width: 400px;
+  margin-top: 20px;
+  border: 3px solid #474749;
+  display: grid;
+  grid-template=rows;20% 80;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.degrees{
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+  display: grid;
+  grid-template-columns:auto auto;
+  justify-content: center;
+  margin-left:2rem;
+}
+
+.textcontainer{
+  display: grid;
+  grid-template-columns:auto auto; 
+}
+.panel {
+  position: absolute;
+  color: white;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 2rem 0rem;
+  text-align: center;
+  font-size: 20px;
+  background-color : #474749;
+  background: #4169E1;
+}
+.description{
+  font-size: 3rem;
+  font-style: oblique;
+  font-variant: small-caps;
+  
+}
+.note{
+  font-size:0.7rem;
+  
+}
+hr.style14 { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
